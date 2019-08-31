@@ -1,0 +1,42 @@
+body{
+	margin-bottom: 50px;
+}
+.box{
+	border: 1px red dotted;
+}
+.social-icon-container{
+	padding: 0;
+}
+.container{
+	max-width: 1000px;
+	margin-top: 20px;
+}
+.profile aside p{
+	font-size: 12px;
+}
+.profile img{
+	width: 30px;
+	height: auto;
+	margin-right: 5px;
+}
+.profile {
+	display: inline;
+}
+.my-main-image{
+	width: 150px;
+}
+.line-after{
+	display: none;
+}
+
+@media (max-width: 767px){
+	.profile-content{
+		float: left;
+	}
+	.social-icons{
+		float: right;
+	}
+	.no-line{
+		display: none;
+	}
+}
